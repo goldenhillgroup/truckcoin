@@ -205,6 +205,29 @@ namespace cryptonote
     };
   };
   //-----------------------------------------------
+  struct COMMAND_RPC_START_MINING
+  {
+    struct request
+    {
+      std::string miner_address;
+      uint64_t    threads_count;
+
+      BEGIN_KV_SERIALIZE_MAP()
+        KV_SERIALIZE(miner_address)
+        KV_SERIALIZE(threads_count)
+      END_KV_SERIALIZE_MAP()
+    };
+
+    struct response
+    {
+      std::string status;
+
+      BEGIN_KV_SERIALIZE_MAP()
+        KV_SERIALIZE(status)
+      END_KV_SERIALIZE_MAP()
+    };
+  };
+  //-----------------------------------------------
   struct COMMAND_RPC_GET_INFO
   {
     struct request
