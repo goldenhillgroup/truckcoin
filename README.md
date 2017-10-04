@@ -50,7 +50,7 @@ considered before using it in a production environment, unless there is a patch 
 repository for a particular show-stopping issue you are experiencing. It is generally
 a better idea to use a tagged release for stability.
 
-Anyone is able to contribute to TRUCKCOI. If you have a fix or code change, feel free to
+Anyone is able to contribute to TRUCKCOIN. If you have a fix or code change, feel free to
 submit is as a pull request. In cases where the change is relatively small or does not
 affect other parts of the codebase it may be merged in immediately by any one of the
 collaborators. On the other hand, if the change is particularly large or complex, it
