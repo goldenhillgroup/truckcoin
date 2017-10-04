@@ -1,4 +1,4 @@
-// Copyright (c) 2014, 2015 The Truckcoin Project
+// Copyright (c) 2014, 2015 TRUCKCOIN, The GoldenHill Project
 // 
 // All rights reserved.
 // 
@@ -113,7 +113,7 @@
 
 #define ALLOW_DEBUG_COMMANDS
 
-#define CRYPTONOTE_NAME                         "truckcoin"
+#define CRYPTONOTE_NAME                         "atruckcoin"
 #define CRYPTONOTE_POOLDATA_FILENAME            "poolstate.bin"
 #define CRYPTONOTE_BLOCKCHAINDATA_FILENAME      "blockchain.bin"
 #define CRYPTONOTE_BLOCKCHAINDATA_TEMP_FILENAME "blockchain.bin.tmp"
@@ -122,6 +122,6 @@
 
 #define THREAD_STACK_SIZE                       5 * 1024 * 1024
 
-#define CONFIG_DONATION_ADDRESS                 "WcAoe14fBpo3GZ1Vbu6ytkEBeWbavbNf8Y8j42Pt7kKn2AfRPVQfmcmQsA1s4HVmD9Ln35sjj34Bv3TgbhYXSzPa26XCmE7rD"
+#define CONFIG_DONATION_ADDRESS                 ""
 
 #define DEFAULT_TX_SPENDABLE_AGE                10
